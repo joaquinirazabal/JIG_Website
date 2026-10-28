@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Research by Joaquín Irazábal González: dam safety and monitoring, discrete element modelling, machine learning for numerical models and scientific software.">
+    <title>Research | Joaquín Irazábal González</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="JIG — Joaquín Irazábal González — CIMNE home">
+          <span class="brand-mark">JIG</span>
+          <span class="brand-affiliation">Joaquín Irazábal González</span>
+          <img class="brand-logo" src="assets/images/cimne-colour.png" alt="CIMNE" width="571" height="140">
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="research.html" aria-current="page">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <section id="research" class="section container">
+        <p class="eyebrow">What I work on</p>
+        <h1 class="page-title">Research</h1>
+        <p class="intro">My research sits between computational mechanics and data-driven modelling. I develop numerical methods, calibrate them with machine learning, and apply the resulting models to monitoring and safety problems in civil engineering.</p>
+
+        <div class="research-list">
+          <article class="research-item">
+            <span class="research-number">01</span>
+            <div>
+              <h2>Dam safety and monitoring</h2>
+              <p>Dams generate long, multivariate monitoring records that are difficult to interpret with classical methods. I work on data-driven and hybrid approaches that combine finite element models with machine learning to detect anomalies, predict displacements and define warning thresholds. Recent work includes autoencoder-based outlier detection, kernel-density-based adaptive thresholds and boosted regression trees for interpreting dam response.</p>
+              <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s13349-025-00910-4">Detection of outliers with autoencoders</a> · <a href="https://doi.org/10.3390/infrastructures10070158">Adaptive warning thresholds</a> · <a href="https://doi.org/10.1016/j.softx.2023.101598">SOLDIER</a> · <a href="https://doi.org/10.1088/1755-1315/1575/1/012025">Hybrid prediction of arch dam deformations</a></p>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <span class="research-number">02</span>
+            <div>
+              <h2>Discrete element modelling of granular materials</h2>
+              <p>I study the mechanical behaviour of granular materials using the Discrete Element Method, with a focus on particle shape, rolling friction and contact integration. Applications include railway ballast under high-speed train loads, rockfill and rockfall protection systems. I also work on DEM–FEM coupling for particle–structure interaction and on the geometric representation of real particle morphologies.</p>
+              <p class="research-related">Representative work: <a href="https://doi.org/10.1016/j.compgeo.2016.12.034">Bounded rolling friction model for railway ballast</a> · <a href="https://doi.org/10.1007/s40571-019-00232-5">Integration scheme for non-spherical particles</a> · <a href="https://doi.org/10.1007/s40571-016-0109-4">Double Hierarchy Method</a> · <a href="https://doi.org/10.1016/j.sandf.2023.101272">Round robin test on angle of repose</a></p>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <span class="research-number">03</span>
+            <div>
+              <h2>Machine learning for numerical models</h2>
+              <p>Numerical models depend on parameters that are costly to calibrate. I develop surrogate-based and automatic calibration methodologies that replace expensive simulations with machine learning models, and I study how to interpret the resulting predictions. This work connects DEM parameter identification with hybrid modelling of dam behaviour.</p>
+              <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s40571-022-00550-1">Calibration of DEM parameters with machine learning surrogates</a> · <a href="https://doi.org/10.2139/ssrn.6770210">Hybrid approaches for dam displacement prediction</a></p>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <span class="research-number">04</span>
+            <div>
+              <h2>Scientific software and digital tools</h2>
+              <p>I contribute to the development of research software in C++ and Python, including SOLDIER for dam behaviour interpretation and EasyHydro for hydrodynamic modelling of dams and reversible hydropower plants. I have also coordinated code development tasks in collaborative research projects.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="methods">
+          <h2>Methods &amp; technologies</h2>
+          <p>Numerical Modelling · Machine Learning · Hybrid Modelling · Scientific Software</p>
+          <ul class="technologies">
+            <li>Discrete Element Method (DEM)</li>
+            <li>Particle Finite Element Method (PFEM)</li>
+            <li>Finite Element Method (FEM)</li>
+            <li>Machine Learning</li>
+            <li>Hybrid Modelling</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>Joaquín Irazábal González · <a href="https://cimne.com/" target="_blank" rel="noopener noreferrer">CIMNE</a> · <a href="https://cimnemadrid.github.io/MLCE_Website/" target="_blank" rel="noopener noreferrer">MLCE Group</a></span>
+        <span><a href="mailto:jirazabal@cimne.upc.edu">jirazabal@cimne.upc.edu</a></span>
+      </div>
+    </footer>
+  </body>
+</html>
