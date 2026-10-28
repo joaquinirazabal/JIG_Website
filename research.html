@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Research by Joaquín Irazábal González: dam safety and monitoring, discrete element modelling, machine learning for numerical models and scientific software.">
+    <meta name="description" content="Research by Joaquín Irazábal González: machine learning for industrial engineering, dam safety and monitoring, numerical model calibration and scientific software.">
     <title>Research | Joaquín Irazábal González</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
@@ -30,11 +30,20 @@
       <section id="research" class="section container">
         <p class="eyebrow">What I work on</p>
         <h1 class="page-title">Research</h1>
-        <p class="intro">My research sits between computational mechanics and data-driven modelling. I develop numerical methods, calibrate them with machine learning, and apply the resulting models to monitoring and safety problems in civil engineering.</p>
+        <p class="intro">My research combines computational mechanics, numerical simulation and machine learning. The main application areas are industrial engineering and dam safety; my earlier work focused on granular materials and railway infrastructure.</p>
 
         <div class="research-list">
           <article class="research-item">
             <span class="research-number">01</span>
+            <div>
+              <h2>Machine learning for industrial engineering</h2>
+              <p>I apply machine learning and numerical simulation to industrial forming processes and structural devices. In flowforming and rotary metal forming, the aim is to optimise preforms and process parameters while reducing the cost of physical trials and simulation campaigns. I develop surrogate models and automatic calibration strategies that connect finite element simulations with data-driven predictions. I also work on the numerical design and assessment of shear-link dissipators for resilient buildings.</p>
+              <p class="research-related">Representative work: <a href="https://doi.org/10.7712/120125.12772.25355">Advanced modeling of buckling delayed shear links</a> · Related projects: <a href="projects.html#optiflow">OPTIFLOW</a> · <a href="projects.html#optipro">OPTIPRO</a> · <a href="projects.html#optirep">OPTIREP</a> · <a href="projects.html#resilink">RESILINK</a></p>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <span class="research-number">02</span>
             <div>
               <h2>Dam safety and monitoring</h2>
               <p>Dams generate long, multivariate monitoring records that are difficult to interpret with classical methods. I work on data-driven and hybrid approaches that combine finite element models with machine learning to detect anomalies, predict displacements and define warning thresholds. Recent work includes autoencoder-based outlier detection, kernel-density-based adaptive thresholds and boosted regression trees for interpreting dam response.</p>
@@ -43,20 +52,11 @@
           </article>
 
           <article class="research-item">
-            <span class="research-number">02</span>
-            <div>
-              <h2>Discrete element modelling of granular materials</h2>
-              <p>I study the mechanical behaviour of granular materials using the Discrete Element Method, with a focus on particle shape, rolling friction and contact integration. Applications include railway ballast under high-speed train loads, rockfill and rockfall protection systems. I also work on DEM–FEM coupling for particle–structure interaction and on the geometric representation of real particle morphologies.</p>
-              <p class="research-related">Representative work: <a href="https://doi.org/10.1016/j.compgeo.2016.12.034">Bounded rolling friction model for railway ballast</a> · <a href="https://doi.org/10.1007/s40571-019-00232-5">Integration scheme for non-spherical particles</a> · <a href="https://doi.org/10.1007/s40571-016-0109-4">Double Hierarchy Method</a> · <a href="https://doi.org/10.1016/j.sandf.2023.101272">Round robin test on angle of repose</a></p>
-            </div>
-          </article>
-
-          <article class="research-item">
             <span class="research-number">03</span>
             <div>
               <h2>Machine learning for numerical models</h2>
-              <p>Numerical models depend on parameters that are costly to calibrate. I develop surrogate-based and automatic calibration methodologies that replace expensive simulations with machine learning models, and I study how to interpret the resulting predictions. This work connects DEM parameter identification with hybrid modelling of dam behaviour.</p>
-              <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s40571-022-00550-1">Calibration of DEM parameters with machine learning surrogates</a> · <a href="https://doi.org/10.2139/ssrn.6770210">Hybrid approaches for dam displacement prediction</a></p>
+              <p>Numerical models depend on parameters that are costly to calibrate. I develop surrogate-based and automatic calibration methodologies that replace expensive simulations with machine learning models, and I study how to interpret the resulting predictions. This work supports both industrial process models and dam safety applications.</p>
+              <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s40571-022-00550-1">Calibration of DEM parameters with machine learning surrogates</a></p>
             </div>
           </article>
 
@@ -67,17 +67,28 @@
               <p>I contribute to the development of research software in C++ and Python, including SOLDIER for dam behaviour interpretation and EasyHydro for hydrodynamic modelling of dams and reversible hydropower plants. I have also coordinated code development tasks in collaborative research projects.</p>
             </div>
           </article>
+
+          <article class="research-item">
+            <span class="research-number">05</span>
+            <div>
+              <h2>Granular materials and railway infrastructure <span class="research-tag">Earlier research</span></h2>
+              <p>Earlier in my career I studied the mechanical behaviour of granular materials using the Discrete Element Method, with a focus on particle shape, rolling friction and contact integration. Applications included railway ballast under high-speed train loads, rockfill and rockfall protection systems. This line provided the methodological base for my later work on surrogate modelling and parameter calibration.</p>
+              <p class="research-related">Representative work: <a href="https://doi.org/10.1016/j.compgeo.2016.12.034">Bounded rolling friction model for railway ballast</a> · <a href="https://doi.org/10.1007/s40571-019-00232-5">Integration scheme for non-spherical particles</a> · <a href="https://doi.org/10.1007/s40571-016-0109-4">Double Hierarchy Method</a> · <a href="https://doi.org/10.1016/j.sandf.2023.101272">Round robin test on angle of repose</a></p>
+            </div>
+          </article>
         </div>
 
         <div class="methods">
           <h2>Methods &amp; technologies</h2>
-          <p>Numerical Modelling · Machine Learning · Hybrid Modelling · Scientific Software</p>
+          <p>Machine Learning · Numerical Simulation · Hybrid Modelling · Scientific Software</p>
           <ul class="technologies">
+            <li>Machine Learning</li>
+            <li>Surrogate Modelling</li>
+            <li>Process Optimisation</li>
+            <li>Hybrid Modelling</li>
+            <li>Finite Element Method (FEM)</li>
             <li>Discrete Element Method (DEM)</li>
             <li>Particle Finite Element Method (PFEM)</li>
-            <li>Finite Element Method (FEM)</li>
-            <li>Machine Learning</li>
-            <li>Hybrid Modelling</li>
             <li>C++</li>
             <li>Python</li>
             <li>Git</li>

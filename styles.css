@@ -18,7 +18,8 @@ html {
 
 /* Keep fragment targets clear of the sticky header at each breakpoint. */
 main[id],
-section[id] {
+section[id],
+.card[id] {
   scroll-margin-top: var(--anchor-offset);
 }
 
@@ -341,6 +342,11 @@ nav a:hover,
   margin: 0;
 }
 
+.card .text-link {
+  display: inline-block;
+  margin-top: 16px;
+}
+
 .methods {
   padding: 26px 30px;
   background: var(--pale);
@@ -389,6 +395,22 @@ nav a:hover,
   font-size: 13px;
   color: var(--blue);
   padding-top: 7px;
+}
+
+.research-tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  padding: 2px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .research-item h2 {

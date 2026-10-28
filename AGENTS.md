@@ -17,10 +17,10 @@ The site deliberately reuses the visual identity and technical approach of the M
 
 Keep the current five-page static structure and main navigation:
 
-- Home (`index.html`): biography summary, research areas and selected publications.
+- Home (`index.html`): biography summary, research areas, selected projects and selected publications.
 - Research (`research.html`): research lines and methods.
-- Publications (`publications.html`): journal articles, conference contributions and preprints.
-- Projects (`projects.html`): selected and further projects.
+- Publications (`publications.html`): journal articles and conference contributions.
+- Projects (`projects.html`): industrial engineering, dam safety and other projects.
 - About (`about.html`): career, education, award, contact and profiles.
 
 Do not create additional pages, menu items or sections without an explicit request. Preserve the single shared `styles.css`. Use the same navigation and footer on every page, with relative page links and `aria-current="page"` on the current navigation item. Keep duplicated navigation and footer markup synchronized manually; no build step is required.

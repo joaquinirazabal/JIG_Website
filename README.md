@@ -1,6 +1,6 @@
 # Joaquín Irazábal González — personal academic website
 
-Static personal website of **Joaquín Irazábal González**, Assistant Research Professor in the Machine Learning in Civil Engineering group at **CIMNE**.
+Static personal website of **Joaquín Irazábal González**, Assistant Research Professor in the Machine Learning in Civil Engineering group at **CIMNE**. The site focuses on machine learning and numerical simulation applied mainly to industrial engineering and dam safety.
 
 The site follows the visual identity, navigation patterns and technical approach of the [MLCE group website](https://cimnemadrid.github.io/MLCE_Website/), but contains information about one person only.
 
@@ -8,10 +8,10 @@ The site follows the visual identity, navigation patterns and technical approach
 
 ## File structure
 
-- `index.html`: Home, short biography, research areas and selected publications.
+- `index.html`: Home, short biography, research areas, selected projects and selected publications.
 - `research.html`: Research lines and methods.
-- `publications.html`: Journal articles, conference contributions and preprints.
-- `projects.html`: Selected projects and a list of further projects.
+- `publications.html`: Journal articles and conference contributions.
+- `projects.html`: Industrial engineering and dam safety projects, plus other projects.
 - `about.html`: Career, education, award, contact details and academic profiles.
 - `styles.css`: shared styles, responsive layouts and accessibility rules.
 - `assets/images/`: portrait and CIMNE logo.
@@ -27,7 +27,8 @@ Content was compiled in October 2026 from:
 - FECYT CVN curriculum (`cvn_20261028104832974_1793180919542.pdf`), the primary source for positions, education, projects and publications.
 - [ORCID 0000-0003-4966-4812](https://orcid.org/0000-0003-4966-4812), used to add publications not yet listed in the CV.
 - [Google Scholar](https://scholar.google.es/citations?user=T08dTR4AAAAJ) and [Crossref](https://www.crossref.org/), used to confirm citation details, DOIs and citation metrics.
-- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56823548200), [ResearchGate](https://www.researchgate.net/profile/Joaquin-Irazabal-Gonzalez) and [LinkedIn](https://www.linkedin.com/in/joaquinirazabalgonzalez/) for profile links.
+- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56823548200), used to verify the indexed document list and add the COMPDYN 2025 conference paper.
+- [ResearchGate](https://www.researchgate.net/profile/Joaquin-Irazabal-Gonzalez) and [LinkedIn](https://www.linkedin.com/in/joaquinirazabalgonzalez/) for profile links.
 
 Publication and project lists are curated snapshots, not live data. Update them manually when new outputs appear. Metrics on the home page (citations and h-index) come from Google Scholar and should be revised periodically.
 
