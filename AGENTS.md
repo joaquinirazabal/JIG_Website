@@ -6,6 +6,8 @@ This repository contains the public personal academic website of **Joaquín Iraz
 
 - **Website language:** English
 - **Hosting:** GitHub Pages
+- **Repository:** <https://github.com/joaquinirazabal/JIG_Website>
+- **Live site:** <https://joaquinirazabal.github.io/JIG_Website/>
 - **Primary audience:** Researchers, collaborators, project partners, prospective students and engineering professionals
 - **Visual reference:** <https://cimnemadrid.github.io/MLCE_Website/>
 
@@ -29,7 +31,7 @@ Do not create additional pages, menu items or sections without an explicit reque
 - Use JavaScript only when it provides a clear functional benefit.
 - **Do not introduce** React, Vue, Bootstrap, Tailwind, package managers, build pipelines or external libraries without explicit approval.
 - Keep `index.html` at the repository root so GitHub Pages can serve it.
-- Use relative links and asset paths compatible with deployment under `https://joaquin-irazabal.github.io/JIG_Website/`.
+- Use relative links and asset paths compatible with deployment under `https://joaquinirazabal.github.io/JIG_Website/`.
 - Avoid unnecessary dependencies, scripts, animations and large assets.
 
 ## Content rules

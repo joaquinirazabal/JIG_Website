@@ -4,6 +4,8 @@ Static personal website of **Joaquín Irazábal González**, Assistant Research 
 
 The site follows the visual identity, navigation patterns and technical approach of the [MLCE group website](https://cimnemadrid.github.io/MLCE_Website/), but contains information about one person only.
 
+**Live site:** <https://joaquinirazabal.github.io/JIG_Website/>
+
 ## File structure
 
 - `index.html`: Home, short biography, research areas and selected publications.
@@ -47,24 +49,23 @@ The navigation and footer are repeated in each HTML file. When changing either, 
 
 ## Publish to GitHub Pages
 
-GitHub account: [Joaquin-irazabal](https://github.com/Joaquin-irazabal). Repository: `JIG_Website`.
+The site is published with GitHub Pages from the `main` branch, `/(root)` folder:
 
-1. Create a new **public** repository named `JIG_Website` at <https://github.com/new>. Do not initialise it with a README, license or `.gitignore`.
-2. Connect this local repository and push:
+- GitHub account: [joaquinirazabal](https://github.com/joaquinirazabal)
+- Repository: <https://github.com/joaquinirazabal/JIG_Website>
+- Published site: <https://joaquinirazabal.github.io/JIG_Website/>
 
-   ```bash
-   git remote add origin https://github.com/Joaquin-irazabal/JIG_Website.git
-   git push -u origin main
-   ```
+To publish changes:
 
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/(root)`, then **Save**.
-6. Check the deployment status in the **Actions** tab and the published URL in **Settings → Pages**.
+```bash
+git add .
+git commit -m "Describe the change"
+git push origin main
+```
 
-Expected website address: [joaquin-irazabal.github.io/JIG_Website](https://joaquin-irazabal.github.io/JIG_Website/).
+GitHub Pages rebuilds automatically after each push to `main`. Check the deployment status in the repository's **Actions** tab. If the Pages configuration ever needs to be restored, go to **Settings → Pages**, choose **Deploy from a branch**, and select `main` and `/(root)`.
 
-Local edits do not publish until committed and pushed to `main`. No custom workflow or build tooling is needed.
+Local edits do not publish until committed and pushed. No custom workflow or build tooling is needed.
 
 ## Before publishing
 
