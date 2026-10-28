@@ -63,7 +63,20 @@ Do not create additional pages, menu items or sections without an explicit reque
 4. If content is missing or uncertain, flag the gap instead of making up facts.
 5. After changes, check internal links, responsive behavior and relevant accessibility concerns as far as available tools allow.
 6. Summarize which files changed, what was changed, and what the user should verify in the browser.
-7. **Do not commit, push or deploy** unless explicitly asked. The user controls publication.
+7. **Never commit, push or deploy automatically.** The user handles Git and publication personally. Do not run `git add`, `git commit`, `git push` or a GitHub Pages deployment unless the user explicitly requests that specific action in the current message.
+8. Leave the working tree with the requested changes so the user can review and commit them.
+
+## Git and publication
+
+The user controls the repository and the live site. Agents must stop after editing, validating and summarizing the changes.
+
+- Do not create commits.
+- Do not push to `origin`.
+- Do not trigger or modify GitHub Pages deployments.
+- Do not run commands that stage changes automatically (for example, `git add .`).
+- If a commit or push seems necessary, ask the user first and wait for explicit confirmation.
+
+The live site is <https://joaquinirazabal.github.io/JIG_Website/> and publishes from `main`. Changes remain local until the user commits and pushes them.
 
 ## Reference URLs
 
