@@ -686,6 +686,10 @@ nav a:hover,
   font-size: 15px;
 }
 
+.award + .award {
+  margin-top: 16px;
+}
+
 .about-side .methods {
   margin-top: 0;
 }

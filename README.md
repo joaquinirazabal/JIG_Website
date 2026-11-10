@@ -22,9 +22,9 @@ The website uses only HTML and CSS. No installation, build step or external depe
 
 ## Content sources
 
-Content was compiled in October 2026 from:
+Content was compiled in October 2026 and updated in November 2026 from:
 
-- FECYT CVN curriculum (`cvn_20261028104832974_1793180919542.pdf`), the primary source for positions, education, projects and publications.
+- FECYT CVN curriculum (`docs/cvn_20261030_JoaquinIrazabal.pdf`), the primary source for positions, education, projects and publications.
 - [ORCID 0000-0003-4966-4812](https://orcid.org/0000-0003-4966-4812), used to add publications not yet listed in the CV.
 - [Google Scholar](https://scholar.google.es/citations?user=T08dTR4AAAAJ) and [Crossref](https://www.crossref.org/), used to confirm citation details, DOIs and citation metrics.
 - [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56823548200), used to verify the indexed document list and add the COMPDYN 2025 conference paper.
