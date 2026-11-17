@@ -9,9 +9,9 @@ This repository contains the public personal academic website of **Joaquín Iraz
 - **Repository:** <https://github.com/joaquinirazabal/JIG_Website>
 - **Live site:** <https://joaquinirazabal.github.io/JIG_Website/>
 - **Primary audience:** Researchers, collaborators, project partners, prospective students and engineering professionals
-- **Visual reference:** <https://cimnemadrid.github.io/MLCE_Website/>
+- **Visual reference:** none required; the site now has its own personal identity. The MLCE group website remains useful as a content reference only.
 
-The site deliberately reuses the visual identity and technical approach of the MLCE group website while containing information about one person only.
+The site is intentionally personal rather than corporate: a warm paper palette, serif typography, a portrait-led sidebar and an editorial tone. It should not imitate an institutional website. Light and dark themes follow the operating-system or browser preference automatically; there is no manual theme switch.
 
 ## Site structure
 
@@ -46,12 +46,13 @@ Do not create additional pages, menu items or sections without an explicit reque
 
 ## Design and accessibility
 
-- Style: **simple, clean, modern, academic and professional**.
+- Style: **simple, personal, editorial and academic**; avoid corporate or institutional treatments.
 - Preserve readability, generous whitespace and a responsive layout for desktop, tablet and mobile.
 - Reuse CSS variables and existing classes rather than adding one-off styles.
 - Use logical heading hierarchy, semantic landmarks and descriptive link text.
 - Provide meaningful alt text for informative images and empty alt text for decorative ones.
 - Ensure keyboard accessibility, visible focus states and readable contrast.
+- Define both light and dark palettes with CSS variables under `prefers-color-scheme`; check both modes after visual changes.
 - Respect `prefers-reduced-motion` where motion is used.
 - Check links between all five pages, current-page highlighting, and the skip-to-content anchor beneath the sticky header on small screens.
 

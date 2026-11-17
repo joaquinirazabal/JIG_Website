@@ -2,7 +2,7 @@
 
 Static personal website of **Joaquín Irazábal González**, Assistant Research Professor in the Machine Learning in Civil Engineering group at **CIMNE**. The site focuses on machine learning and numerical simulation applied mainly to industrial engineering and dam safety.
 
-The site follows the visual identity, navigation patterns and technical approach of the [MLCE group website](https://cimnemadrid.github.io/MLCE_Website/), but contains information about one person only.
+The site has its own personal, editorial identity — a warm paper palette, serif typography and a sidebar with the portrait and navigation — and it should read as the website of one researcher rather than as an institutional or corporate site. Light and dark themes follow the operating-system preference automatically.
 
 **Live site:** <https://joaquinirazabal.github.io/JIG_Website/>
 
@@ -14,7 +14,7 @@ The site follows the visual identity, navigation patterns and technical approach
 - `projects.html`: Industrial engineering and dam safety projects, plus other projects.
 - `about.html`: Career, education, award, contact details and academic profiles.
 - `styles.css`: shared styles, responsive layouts and accessibility rules.
-- `assets/images/`: portrait and CIMNE logo.
+- `assets/images/`: portrait, header avatar and legacy CIMNE logo (the logo is not currently used in the pages).
 - `assets/favicon.svg`: site icon.
 - `AGENTS.md`: repository guidance for future maintenance.
 
@@ -71,6 +71,7 @@ Local edits do not publish until committed and pushed. No custom workflow or bui
 ## Before publishing
 
 - Check the desktop layout and a narrow mobile viewport.
+- Check the site in both light and dark mode (operating-system or browser preference).
 - Follow each navigation link from every page and confirm the correct page is highlighted.
 - Press Tab to reveal “Skip to content”, then Enter to move focus to the main content.
 - Confirm that external profile and DOI links resolve.

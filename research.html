@@ -5,102 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Research by Joaquín Irazábal González: machine learning for industrial engineering, dam safety and monitoring, numerical model calibration and scientific software.">
     <title>Research | Joaquín Irazábal González</title>
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#171a1c" media="(prefers-color-scheme: dark)">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a href="index.html" class="brand" aria-label="JIG — Joaquín Irazábal González — CIMNE home">
-          <span class="brand-mark">JIG</span>
-          <span class="brand-affiliation">Joaquín Irazábal González</span>
-          <img class="brand-logo" src="assets/images/cimne-colour.png" alt="CIMNE" width="571" height="140">
+    <div class="shell">
+      <header class="site-header">
+        <a class="identity" href="index.html" aria-label="Joaquín Irazábal González — home">
+          <img class="avatar" src="assets/images/joaquin-irazabal-avatar.jpg" alt="" width="160" height="160">
+          <span class="name">Joaquín Irazábal González</span>
         </a>
+        <p class="role">Industrial Engineer, PhD · Assistant Research Professor at CIMNE</p>
         <nav aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="research.html" aria-current="page">Research</a>
-          <a href="publications.html">Publications</a>
-          <a href="projects.html">Projects</a>
-          <a href="about.html">About</a>
-        </nav>
-      </div>
-    </header>
-    <main id="main-content" tabindex="-1">
-      <section id="research" class="section container">
-        <p class="eyebrow">What I work on</p>
-        <h1 class="page-title">Research</h1>
-        <p class="intro">My research combines computational mechanics, numerical simulation and machine learning. The main application areas are industrial engineering and dam safety; my earlier work focused on granular materials and railway infrastructure.</p>
-
-        <div class="research-list">
-          <article class="research-item">
-            <span class="research-number">01</span>
-            <div>
-              <h2>Machine learning for industrial engineering</h2>
-              <p>I apply machine learning and numerical simulation to industrial forming processes and structural devices. In flowforming and rotary metal forming, the aim is to optimise preforms and process parameters while reducing the cost of physical trials and simulation campaigns. I develop surrogate models and automatic calibration strategies that connect finite element simulations with data-driven predictions. I also work on the numerical design and assessment of shear-link dissipators for resilient buildings.</p>
-              <p class="research-related">Representative work: <a href="https://doi.org/10.7712/120125.12772.25355">Advanced modeling of buckling delayed shear links</a> · Related projects: <a href="projects.html#optiflow">OPTIFLOW</a> · <a href="projects.html#optipro">OPTIPRO</a> · <a href="projects.html#optirep">OPTIREP</a> · <a href="projects.html#resilink">RESILINK</a></p>
-            </div>
-          </article>
-
-          <article class="research-item">
-            <span class="research-number">02</span>
-            <div>
-              <h2>Dam safety and monitoring</h2>
-              <p>Dams generate long, multivariate monitoring records that are difficult to interpret with classical methods. I work on data-driven and hybrid approaches that combine finite element models with machine learning to detect anomalies, predict displacements and define warning thresholds. Recent work includes autoencoder-based outlier detection, kernel-density-based adaptive thresholds and boosted regression trees for interpreting dam response, and now extends to AI agents for structural health monitoring and safety assessment.</p>
-              <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s13349-025-00910-4">Detection of outliers with autoencoders</a> · <a href="https://doi.org/10.3390/infrastructures10070158">Adaptive warning thresholds</a> · <a href="https://doi.org/10.1016/j.softx.2023.101598">SOLDIER</a> · <a href="https://doi.org/10.1088/1755-1315/1575/1/012025">Hybrid prediction of arch dam deformations</a></p>
-            </div>
-          </article>
-
-          <article class="research-item">
-            <span class="research-number">03</span>
-            <div>
-              <h2>Machine learning for numerical models</h2>
-              <p>Numerical models depend on parameters that are costly to calibrate. I develop surrogate-based and automatic calibration methodologies that replace expensive simulations with machine learning models, and I study how to interpret the resulting predictions. This work supports both industrial process models and dam safety applications.</p>
-              <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s40571-022-00550-1">Calibration of DEM parameters with machine learning surrogates</a></p>
-            </div>
-          </article>
-
-          <article class="research-item">
-            <span class="research-number">04</span>
-            <div>
-              <h2>Scientific software and digital tools</h2>
-              <p>I contribute to the development and maintenance of open-source research software in C++ and Python. In Kratos Multiphysics I work on the DamApplication (structural and thermal analysis of dams), FreeSurfaceApplication (free-surface flows) and DEMApplication (Discrete Element Method), and I co-develop SOLDIER for dam behaviour interpretation. I have also coordinated code development tasks in collaborative research projects.</p>
-            </div>
-          </article>
-
-          <article class="research-item">
-            <span class="research-number">05</span>
-            <div>
-              <h2>Granular materials and railway infrastructure <span class="research-tag">Earlier research</span></h2>
-              <p>Earlier in my career I studied the mechanical behaviour of granular materials using the Discrete Element Method, with a focus on particle shape, rolling friction and contact integration. Applications included railway ballast under high-speed train loads, rockfill and rockfall protection systems. This line provided the methodological base for my later work on surrogate modelling and parameter calibration.</p>
-              <p class="research-related">Representative work: <a href="https://doi.org/10.1016/j.compgeo.2016.12.034">Bounded rolling friction model for railway ballast</a> · <a href="https://doi.org/10.1007/s40571-019-00232-5">Integration scheme for non-spherical particles</a> · <a href="https://doi.org/10.1007/s40571-016-0109-4">Double Hierarchy Method</a> · <a href="https://doi.org/10.1016/j.sandf.2023.101272">Round robin test on angle of repose</a></p>
-            </div>
-          </article>
-        </div>
-
-        <div class="methods">
-          <h2>Methods &amp; technologies</h2>
-          <p>Machine Learning · Numerical Simulation · Hybrid Modelling · Scientific Software</p>
-          <ul class="technologies">
-            <li>Machine Learning</li>
-            <li>Surrogate Modelling</li>
-            <li>Process Optimisation</li>
-            <li>Hybrid Modelling</li>
-            <li>Finite Element Method (FEM)</li>
-            <li>Discrete Element Method (DEM)</li>
-            <li>Particle Finite Element Method (PFEM)</li>
-            <li>C++</li>
-            <li>Python</li>
-            <li>Git</li>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html" aria-current="page">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container footer-inner">
-        <span>Joaquín Irazábal González · <a href="https://cimne.com/" target="_blank" rel="noopener noreferrer">CIMNE</a> · <a href="https://cimnemadrid.github.io/MLCE_Website/" target="_blank" rel="noopener noreferrer">MLCE Group</a></span>
-        <span><a href="mailto:jirazabal@cimne.upc.edu">jirazabal@cimne.upc.edu</a></span>
+        </nav>
+        <p class="contact">
+          <a href="mailto:jirazabal@cimne.upc.edu">jirazabal@cimne.upc.edu</a>
+          <span>CIMNE · Barcelona</span>
+        </p>
+      </header>
+
+      <div class="page">
+        <main id="main-content" class="content" tabindex="-1">
+          <header class="page-intro">
+            <h1 class="page-title">Research</h1>
+            <p class="intro">My research combines computational mechanics, numerical simulation and machine learning. The main application areas are industrial engineering and dam safety; my earlier work focused on granular materials and railway infrastructure.</p>
+          </header>
+
+          <div class="research-list">
+            <article class="research-item" id="industrial">
+              <span class="research-number">01</span>
+              <div>
+                <h2>Machine learning for industrial engineering</h2>
+                <p>I apply machine learning and numerical simulation to industrial forming processes and structural devices. In flowforming and rotary metal forming, the aim is to optimise preforms and process parameters while reducing the cost of physical trials and simulation campaigns. I develop surrogate models and automatic calibration strategies that connect finite element simulations with data-driven predictions. I also work on the numerical design and assessment of shear-link dissipators for resilient buildings.</p>
+                <p class="research-related">Representative work: <a href="https://doi.org/10.7712/120125.12772.25355">Advanced modeling of buckling delayed shear links</a> · Related projects: <a href="projects.html#optiflow">OPTIFLOW</a> · <a href="projects.html#optipro">OPTIPRO</a> · <a href="projects.html#optirep">OPTIREP</a> · <a href="projects.html#resilink">RESILINK</a></p>
+              </div>
+            </article>
+
+            <article class="research-item" id="dams">
+              <span class="research-number">02</span>
+              <div>
+                <h2>Dam safety and monitoring</h2>
+                <p>Dams generate long, multivariate monitoring records that are difficult to interpret with classical methods. I work on data-driven and hybrid approaches that combine finite element models with machine learning to detect anomalies, predict displacements and define warning thresholds. Recent work includes autoencoder-based outlier detection, kernel-density-based adaptive thresholds and boosted regression trees for interpreting dam response, and now extends to AI agents for structural health monitoring and safety assessment.</p>
+                <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s13349-025-00910-4">Detection of outliers with autoencoders</a> · <a href="https://doi.org/10.3390/infrastructures10070158">Adaptive warning thresholds</a> · <a href="https://doi.org/10.1016/j.softx.2023.101598">SOLDIER</a> · <a href="https://doi.org/10.1088/1755-1315/1575/1/012025">Hybrid prediction of arch dam deformations</a></p>
+              </div>
+            </article>
+
+            <article class="research-item" id="calibration">
+              <span class="research-number">03</span>
+              <div>
+                <h2>Machine learning for numerical models</h2>
+                <p>Numerical models depend on parameters that are costly to calibrate. I develop surrogate-based and automatic calibration methodologies that replace expensive simulations with machine learning models, and I study how to interpret the resulting predictions. This work supports both industrial process models and dam safety applications.</p>
+                <p class="research-related">Representative work: <a href="https://doi.org/10.1007/s40571-022-00550-1">Calibration of DEM parameters with machine learning surrogates</a></p>
+              </div>
+            </article>
+
+            <article class="research-item" id="software">
+              <span class="research-number">04</span>
+              <div>
+                <h2>Scientific software and digital tools</h2>
+                <p>I contribute to the development and maintenance of open-source research software in C++ and Python. In Kratos Multiphysics I work on the DamApplication (structural and thermal analysis of dams), FreeSurfaceApplication (free-surface flows) and DEMApplication (Discrete Element Method), and I co-develop SOLDIER for dam behaviour interpretation. I have also coordinated code development tasks in collaborative research projects.</p>
+              </div>
+            </article>
+
+            <article class="research-item" id="granular">
+              <span class="research-number">05</span>
+              <div>
+                <h2>Granular materials and railway infrastructure <span class="research-tag">Earlier research</span></h2>
+                <p>Earlier in my career I studied the mechanical behaviour of granular materials using the Discrete Element Method, with a focus on particle shape, rolling friction and contact integration. Applications included railway ballast under high-speed train loads, rockfill and rockfall protection systems. This line provided the methodological base for my later work on surrogate modelling and parameter calibration.</p>
+                <p class="research-related">Representative work: <a href="https://doi.org/10.1016/j.compgeo.2016.12.034">Bounded rolling friction model for railway ballast</a> · <a href="https://doi.org/10.1007/s40571-019-00232-5">Integration scheme for non-spherical particles</a> · <a href="https://doi.org/10.1007/s40571-016-0109-4">Double Hierarchy Method</a> · <a href="https://doi.org/10.1016/j.sandf.2023.101272">Round robin test on angle of repose</a></p>
+              </div>
+            </article>
+          </div>
+
+          <div class="methods">
+            <h2>Methods &amp; technologies</h2>
+            <p>Machine Learning · Numerical Simulation · Hybrid Modelling · Scientific Software</p>
+            <ul class="technologies">
+              <li>Machine Learning</li>
+              <li>Surrogate Modelling</li>
+              <li>Process Optimisation</li>
+              <li>Hybrid Modelling</li>
+              <li>Finite Element Method (FEM)</li>
+              <li>Discrete Element Method (DEM)</li>
+              <li>Particle Finite Element Method (PFEM)</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </main>
+
+        <footer class="site-footer">
+          <p>© 2026 Joaquín Irazábal González</p>
+          <p><a href="https://cimne.com/" target="_blank" rel="noopener noreferrer">CIMNE</a> · <a href="https://cimnemadrid.github.io/MLCE_Website/" target="_blank" rel="noopener noreferrer">MLCE group</a> · <a href="mailto:jirazabal@cimne.upc.edu">Email</a></p>
+        </footer>
       </div>
-    </footer>
+    </div>
   </body>
 </html>

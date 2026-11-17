@@ -5,151 +5,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Projects by Joaquín Irazábal González: machine learning for industrial engineering, dam safety and monitoring, and numerical modelling.">
     <title>Projects | Joaquín Irazábal González</title>
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#171a1c" media="(prefers-color-scheme: dark)">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a href="index.html" class="brand" aria-label="JIG — Joaquín Irazábal González — CIMNE home">
-          <span class="brand-mark">JIG</span>
-          <span class="brand-affiliation">Joaquín Irazábal González</span>
-          <img class="brand-logo" src="assets/images/cimne-colour.png" alt="CIMNE" width="571" height="140">
+    <div class="shell">
+      <header class="site-header">
+        <a class="identity" href="index.html" aria-label="Joaquín Irazábal González — home">
+          <img class="avatar" src="assets/images/joaquin-irazabal-avatar.jpg" alt="" width="160" height="160">
+          <span class="name">Joaquín Irazábal González</span>
         </a>
+        <p class="role">Industrial Engineer, PhD · Assistant Research Professor at CIMNE</p>
         <nav aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="research.html">Research</a>
-          <a href="publications.html">Publications</a>
-          <a href="projects.html" aria-current="page">Projects</a>
-          <a href="about.html">About</a>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
         </nav>
-      </div>
-    </header>
-    <main id="main-content" tabindex="-1">
-      <section id="projects" class="section container">
-        <p class="eyebrow">Research and transfer</p>
-        <h1 class="page-title">Projects</h1>
-        <p class="intro">A selection of the research and technology-transfer projects I have contributed to since 2011. The first group reflects my current focus on machine learning and simulation for industrial engineering; the second covers dam safety and monitoring; the third gathers my earlier work on railway infrastructure.</p>
+        <p class="contact">
+          <a href="mailto:jirazabal@cimne.upc.edu">jirazabal@cimne.upc.edu</a>
+          <span>CIMNE · Barcelona</span>
+        </p>
+      </header>
 
-        <div class="pub-section">
-          <h2>Machine learning for industrial engineering</h2>
-          <div class="cards projects-grid">
-            <article class="card project-card" id="optiflow">
-              <h2>OPTIFLOW</h2>
-              <p class="project-meta">2025–2028 · Industrial Engineering · Team member</p>
-              <h3>Intelligent Optimisation of Preforms and Parameters in Flowforming</h3>
+      <div class="page">
+        <main id="main-content" class="content" tabindex="-1">
+          <header class="page-intro">
+            <h1 class="page-title">Projects</h1>
+            <p class="intro">A selection of the research and technology-transfer projects I have contributed to since 2011. The first group reflects my current focus on machine learning and simulation for industrial engineering; the second covers dam safety and monitoring; the third gathers my earlier work on railway infrastructure.</p>
+          </header>
+
+          <section class="group">
+            <h2>Machine learning for industrial engineering</h2>
+
+            <article class="entry" id="optiflow">
+              <p class="entry-meta">2025–2028 · Team member</p>
+              <h3><span class="acronym">OPTIFLOW</span> — Intelligent optimisation of preforms and parameters in flowforming</h3>
               <p>Intelligent optimisation of preforms and process parameters in flowforming, combining advanced simulation and artificial intelligence.</p>
             </article>
-            <article class="card project-card" id="optipro">
-              <h2>OPTIPRO</h2>
-              <p class="project-meta">2020–2023 · Industrial Engineering · Team member</p>
-              <h3>Intelligent Optimisation of Rotary Metal Forming Processes</h3>
-              <p>Advanced numerical simulation and machine learning for the optimisation of cylindrical rolling and flowforming processes.</p>
-            </article>
-            <article class="card project-card" id="optirep">
-              <h2>OPTIREP</h2>
-              <p class="project-meta">2023–2024 · Industrial Engineering · Team member</p>
-              <h3>Technological Improvements for Metal Forming by Flowforming</h3>
-              <p>Process simulation and artificial intelligence to improve metal forming by flowforming and reduce trial-and-error calibration.</p>
-            </article>
-            <article class="card project-card" id="resilink">
-              <h2>RESILINK</h2>
-              <p class="project-meta">2024–2026 · Industrial Engineering · Team member</p>
-              <h3>Resilient Buildings Equipped with Shear-Link Dissipators</h3>
-              <p>Numerical modelling and optimisation of shear-link energy dissipation devices, including buckling-delayed shear links under strong cyclic loads.</p>
-            </article>
-          </div>
-        </div>
 
-        <div class="pub-section">
-          <h2>Dam safety and monitoring</h2>
-          <div class="cards projects-grid">
-            <article class="card project-card" id="damshai">
-              <h2>DAMSHAI</h2>
-              <p class="project-meta">2025–2028 · Dam safety · Team member</p>
-              <h3>Dam Structural Health Monitoring and Safety Assessment with an AI Agent</h3>
-              <p>Development of AI agents for dam safety that integrate monitoring data, numerical models and expert knowledge to support structural health monitoring and decision-making.</p>
+            <article class="entry" id="optipro">
+              <p class="entry-meta">2020–2023 · Team member</p>
+              <h3><span class="acronym">OPTIPRO</span> — Intelligent optimisation of rotary metal forming processes</h3>
+              <p>Advanced numerical simulation and machine learning for the optimisation of cylindrical rolling and flowforming processes, with the aim of reducing the resources needed to calibrate process parameters.</p>
+              <p class="entry-foot">Ref. RTC2019-006805-7 · Ministry of Science and Innovation · with Industrias Puigjaner</p>
             </article>
-            <article class="card project-card" id="easy-hydro">
-              <h2>EASY-HYDRO</h2>
-              <p class="project-meta">2025–2027 · Dams and hydropower · Team member</p>
-              <h3>CFD Software for Dams and Reversible Hydropower Plants</h3>
+
+            <article class="entry" id="optirep">
+              <p class="entry-meta">2023–2024 · Team member</p>
+              <h3><span class="acronym">OPTIREP</span> — Technological improvements for metal forming by flowforming</h3>
+              <p>Process simulation and artificial intelligence to improve metal forming by flowforming and reduce trial-and-error calibration.</p>
+              <p class="entry-foot">Ref. ACE053/22/000023 · ACCIÓ, Generalitat de Catalunya</p>
+            </article>
+
+            <article class="entry" id="resilink">
+              <p class="entry-meta">2024–2026 · Team member</p>
+              <h3><span class="acronym">RESILINK</span> — Resilient buildings equipped with shear-link dissipators</h3>
+              <p>Numerical modelling and optimisation of shear-link energy dissipation devices, including buckling-delayed shear links under strong cyclic loads.</p>
+              <p class="entry-foot">Ref. ACE100/23/000022 · ACCIÓ, Generalitat de Catalunya</p>
+            </article>
+          </section>
+
+          <section class="group">
+            <h2>Dam safety and monitoring</h2>
+
+            <article class="entry" id="damshai">
+              <p class="entry-meta">2025–2028 · Team member</p>
+              <h3><span class="acronym">DAMSHAI</span> — Dam structural health monitoring and safety assessment with an AI agent</h3>
+              <p>Development of AI agents for dam safety that integrate monitoring data, numerical models and expert knowledge to support structural health monitoring and decision-making.</p>
+              <p class="entry-foot">Ref. PID2024-157828OB-I00 · Ministry of Science, Innovation and Universities</p>
+            </article>
+
+            <article class="entry" id="easy-hydro">
+              <p class="entry-meta">2025–2027 · Team member</p>
+              <h3><span class="acronym">EASY-HYDRO</span> — CFD software for dams and reversible hydropower plants</h3>
               <p>Software development for hydrodynamic modelling and optimisation of dams and reversible hydropower plants.</p>
             </article>
-            <article class="card project-card" id="dolmen">
-              <h2>DOLMEN</h2>
-              <p class="project-meta">2022–2025 · Dams · Team member</p>
-              <h3>Dam Safety Control with Dynamic Warning Thresholds</h3>
+
+            <article class="entry" id="dolmen">
+              <p class="entry-meta">2022–2025 · Team member</p>
+              <h3><span class="acronym">DOLMEN</span> — Dam safety control with dynamic warning thresholds</h3>
               <p>Hybrid methodology combining numerical models and machine learning to predict dam behaviour and establish dynamic warning thresholds.</p>
+              <p class="entry-foot">Ref. PID2021-122661OB-I00 · Ministry of Science and Innovation</p>
             </article>
-            <article class="card project-card" id="mantpres">
-              <h2>MANTPRES</h2>
-              <p class="project-meta">2023 · Dam safety · Co-Principal Investigator</p>
-              <h3>Analysis of Dam Monitoring Data with Machine Learning Techniques</h3>
+
+            <article class="entry" id="mantpres">
+              <p class="entry-meta">2023 · Co-principal investigator</p>
+              <h3><span class="acronym">MANTPRES</span> — Analysis of dam monitoring data with machine learning techniques</h3>
               <p>Machine learning techniques for analysing dam monitoring data, developed for the Agència Catalana de l'Aigua and TYPSA.</p>
             </article>
-            <article class="card project-card" id="tristan">
-              <h2>TRISTAN</h2>
-              <p class="project-meta">2019–2021 · Dams · Co-Principal Investigator</p>
-              <h3>New Computational Tools for Reliability-Based Dam Safety Assessment</h3>
+
+            <article class="entry" id="tristan">
+              <p class="entry-meta">2019–2021 · Co-principal investigator</p>
+              <h3><span class="acronym">TRISTAN</span> — New computational tools for reliability-based dam safety assessment</h3>
               <p>Computational methodologies for dam safety assessment combining reliability analysis, numerical simulation and data-driven techniques.</p>
+              <p class="entry-foot">Ref. RTI2018-094785-B-I00 · Ministry of Science, Innovation and Universities</p>
             </article>
-            <article class="card project-card" id="numa">
-              <h2>NUMA</h2>
-              <p class="project-meta">2016–2018 · Dams · Code developer</p>
-              <h3>Platform for Physics-Based and Data-Driven Dam Monitoring</h3>
+
+            <article class="entry" id="numa">
+              <p class="entry-meta">2016–2018 · Code development coordinator</p>
+              <h3><span class="acronym">NUMA</span> — Platform for physics-based and data-driven dam monitoring</h3>
               <p>Platform integrating physics-based numerical models and data-driven models into dam monitoring management.</p>
+              <p class="entry-foot">Ref. RTC-2016-4859-5 · Ministry of Economy, Industry and Competitiveness</p>
             </article>
-          </div>
-        </div>
+          </section>
 
-        <div class="pub-section">
-          <h2>Railway infrastructure</h2>
-          <div class="cards projects-grid">
-            <article class="card project-card" id="resiltrack">
-              <h2>RESILTRACK</h2>
-              <p class="project-meta">2018–2021 · Railway infrastructure · Team member</p>
-              <h3>Resilience of Railway Infrastructure to Climate Change</h3>
+          <section class="group">
+            <h2>Railway infrastructure</h2>
+
+            <article class="entry" id="resiltrack">
+              <p class="entry-meta">2018–2021 · Team member</p>
+              <h3><span class="acronym">RESILTRACK</span> — Resilience of railway infrastructure to climate change</h3>
               <p>Research and development project on the resilience of railway infrastructure to climate change, funded by CDTI.</p>
+              <p class="entry-foot">Ref. IDI-20171003 · CDTI</p>
             </article>
-            <article class="card project-card" id="monicab">
-              <h2>MONICAB</h2>
-              <p class="project-meta">2016–2018 · Railway infrastructure · Team member</p>
-              <h3>Sand Contamination in Ballast on High-Speed Railway Lines</h3>
-              <p>Development of numerical tools to model the effect of sand contamination on ballast behaviour in high-speed railway lines.</p>
-            </article>
-            <article class="card project-card" id="balamed">
-              <h2>BALAMED</h2>
-              <p class="project-meta">2013–2015 · Railway infrastructure · Team member</p>
-              <h3>Rail–Sleeper–Ballast Modelling with the Discrete Element Method</h3>
-              <p>Numerical modelling of the rail–sleeper–ballast system using the Discrete Element Method.</p>
-            </article>
-          </div>
-        </div>
 
-        <div class="pub-section">
-          <h2>Other projects</h2>
-          <ul class="further-projects">
-            <li><span class="years">2018–2021</span>COFRE — Recoverable fusible gate for dam hydrological safety</li>
-            <li><span class="years">2018–2021</span>PABLO — Prototype wedge-shaped block spillway</li>
-            <li><span class="years">2016–2019</span>HIRMA — Breach hydrographs for embankment dams</li>
-            <li><span class="years">2016–2018</span>IMPRESION — Drone image processing for dam monitoring</li>
-            <li><span class="years">2015–2018</span>ACOMBO — Thermo-mechanical analysis of arch dams · Code developer</li>
-            <li><span class="years">2014–2017</span>VOLADAPT — Predictive and adaptive blasting</li>
-            <li><span class="years">2012–2015</span>POLILAB — Recoverable labyrinth fusible bottom gate prototype</li>
-            <li><span class="years">2011–2014</span>XLIDE — Slope stability analysis for critical infrastructure</li>
-            <li><span class="years">2011–2013</span>ACUÑA — Wedge-shaped block prototype for erosion protection · Code developer</li>
-            <li><span class="years">2010–2013</span>ALCON — Design criteria for spillway discharge capacity · Code developer</li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container footer-inner">
-        <span>Joaquín Irazábal González · <a href="https://cimne.com/" target="_blank" rel="noopener noreferrer">CIMNE</a> · <a href="https://cimnemadrid.github.io/MLCE_Website/" target="_blank" rel="noopener noreferrer">MLCE Group</a></span>
-        <span><a href="mailto:jirazabal@cimne.upc.edu">jirazabal@cimne.upc.edu</a></span>
+            <article class="entry" id="monicab">
+              <p class="entry-meta">2016–2018 · Team member</p>
+              <h3><span class="acronym">MONICAB</span> — Sand contamination in ballast on high-speed railway lines</h3>
+              <p>Development of numerical tools to model the effect of sand contamination on ballast behaviour in high-speed railway lines.</p>
+              <p class="entry-foot">Ref. BIA2015-67263-R · Ministry of Economy and Competitiveness</p>
+            </article>
+
+            <article class="entry" id="balamed">
+              <p class="entry-meta">2013–2015 · Team member</p>
+              <h3><span class="acronym">BALAMED</span> — Rail–sleeper–ballast modelling with the Discrete Element Method</h3>
+              <p>Numerical modelling of the rail–sleeper–ballast system using the Discrete Element Method.</p>
+              <p class="entry-foot">Ref. BIA2012-39172 · Ministry of Economy and Competitiveness</p>
+            </article>
+          </section>
+
+          <section class="group">
+            <h2>Other projects</h2>
+            <ul class="compact-list">
+              <li><span class="when">2018–2021</span>COFRE — Recoverable fusible gate for dam hydrological safety</li>
+              <li><span class="when">2018–2021</span>PABLO — Prototype wedge-shaped block spillway</li>
+              <li><span class="when">2016–2019</span>HIRMA — Breach hydrographs for embankment dams</li>
+              <li><span class="when">2016–2018</span>IMPRESION — Drone image processing for dam monitoring</li>
+              <li><span class="when">2015–2018</span>ACOMBO — Thermo-mechanical analysis of arch dams · Code development coordinator</li>
+              <li><span class="when">2014–2017</span>VOLADAPT — Predictive and adaptive blasting</li>
+              <li><span class="when">2012–2015</span>POLILAB — Recoverable labyrinth fusible bottom gate prototype</li>
+              <li><span class="when">2011–2014</span>XLIDE — Slope stability analysis for critical infrastructure</li>
+              <li><span class="when">2011–2013</span>ACUÑA — Wedge-shaped block prototype for erosion protection · Code developer</li>
+              <li><span class="when">2010–2013</span>ALCON — Design criteria for spillway discharge capacity · Code developer</li>
+            </ul>
+          </section>
+
+          <p class="page-note">Dates, references and roles follow my FECYT CVN curriculum (October 2026).</p>
+        </main>
+
+        <footer class="site-footer">
+          <p>© 2026 Joaquín Irazábal González</p>
+          <p><a href="https://cimne.com/" target="_blank" rel="noopener noreferrer">CIMNE</a> · <a href="https://cimnemadrid.github.io/MLCE_Website/" target="_blank" rel="noopener noreferrer">MLCE group</a> · <a href="mailto:jirazabal@cimne.upc.edu">Email</a></p>
+        </footer>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
